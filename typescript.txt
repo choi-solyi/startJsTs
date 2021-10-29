@@ -1,0 +1,63 @@
+타입스크립트 공식 URL : 
+https://www.typescriptlang.org/
+
+
+타입스크립트란 ? 
+  자바스크립트에 타입의 추가 시킨것
+  코드를 실행하기전에 에러를 고치는 시간을 절약해준다.
+  진짜 실행환경에서 사용 가능
+  컴파일 Compiled / 인터프리티드 Interpreted
+  타입스크립트 컴파일러를 사용해야만 브라우저, node.js 에서 실행할수있음
+
+
+@ node 설치 > 사이트에서 설치
+
+@ 타입 컴파일러 설치
+$ npm i typescript -g 
+(global: 내 컴퓨터 전역에서 사용할수있다)
+
+
+@@@@ global
+@ 컴파일러 사용 명령어
+$ tsc 파일명.확장자
+명령어를 입력하면 test.js 파일이 생성된다.
+
+@ 프로젝트 생성
+$ mkdir tsc-project
+$ cd tsc-project
+
+@ 설정파일 생성
+$ tsc --init 
+실행시 tsconfig.json 생성된다.
+
+@ 실시간 컴파일 (ts파일 수정시 js파일도 업데이트)
+$ tsc -watch
+
+@ global 삭제 방법
+$ npm uninstall typescript -g
+
+
+@@@@ cli 로 사용
+$ npm init -y
+
+@ cli 설정
+$ npm i typescript
+
+@ 실행
+$ npx tsc
+
+@ 설정파일 생성 
+$ npx tsc --init
+
+@ 실시간 컴파일 (ts파일 수정시 js파일도 업데이트)
+$ npx tsc -w
+
+@ package.json 에 아래를 추가해서 실행 할 수 있다
+    "build": "tsc",
+    "build:watch": "tsc -w"
+
+  
+
+@@신규플젝 생성시
+$ npm init -y
+$ npm i typescript -D //개발용 모듈 명시적 표현 가능

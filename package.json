@@ -1,10 +1,12 @@
 {
   "name": "startJSTS",
   "version": "1.0.0",
-  "description": "",
+  "description": "- npm 시작\r ```git\r npm init -y\r ```\r - Parcel-bundler 설치\r ```git\r npm i -D parcel-bundler\r ```\r - lodash 설치\r ```git\r npm i lodash\r ```",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "build": "tsc",
+    "build:watch": "tsc -w"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,15 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
-    "lodash": "^4.17.21"
-  }
+    "lodash": "^4.17.21",
+    "typescript": "^4.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choi-solyi/startJsTs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/choi-solyi/startJsTs/issues"
+  },
+  "homepage": "https://github.com/choi-solyi/startJsTs#readme"
 }
