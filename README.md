@@ -1,7 +1,7 @@
 
 # Javascript 및 Typescript
  
-## JS 신규 프로젝트 생성
+## Javascript 신규 프로젝트 생성
 
 - npm 시작
 ```git
@@ -16,10 +16,33 @@ npm i -D parcel-bundler
 npm i lodash
 ```
 
+## Typescript 신규 프로젝트 생성
 
+- npm 시작
+```git
+npm init -y
+```
+- 타입 스크립트 설치
+```git
+npm i typescript -D
+```
+- 설정파일 생성
+```git
+npx tsc --init
+```
+- 실시간 컴파일 (TS파일 수정시 JS파일도 업데이트)
+```git
+npx tsc -w
+```
 
 ---
 ## 학습 날짜 및 내용  
+  - 2021년 10월 29일 금목요일 (Typescript)
+        - README.md 설정
+        - P5 CH1 01~04 타입스크립트의 기본 개념, 설치
+
+
+
   - 2021년 10월 28일 목요일 (Javascript)
       - JS파일에서의 Export / export default 차이
       - lodash 자주 쓰는 함수
