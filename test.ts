@@ -6,7 +6,7 @@
 let a: string;
 a = "Solyi"
 
-a = 30
+//a = 30
 
 // let 변수명: 타입
 

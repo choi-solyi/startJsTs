@@ -4,7 +4,7 @@
 // 01~03은 TS개념, 설치 
 var a;
 a = "Solyi";
-a = 30;
+//a = 30
 // let 변수명: 타입
 function hello(b) {
     console.log(b);
