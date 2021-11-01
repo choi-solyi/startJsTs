@@ -37,11 +37,13 @@ npx tsc -w
 
 ---
 ## 학습 날짜 및 내용  
+  - 2021년 11월 1일 월요일 (Typescript)   
+      - README.md 설정
+      - P5 CH2 01~14 타입스크립트의 자료형
+        - Primitive Type, boolean, number, string, symbol, null&undefined, object, Array, tuple, any, unknown, never, void
   - 2021년 10월 29일 금요일 (Typescript)   
       - README.md 설정
       - P5 CH1 01~04 타입스크립트의 기본 개념, 설치
-
-
 
   - 2021년 10월 28일 목요일 (Javascript)
       - JS파일에서의 Export / export default 차이
