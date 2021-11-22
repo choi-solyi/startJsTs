@@ -1,0 +1,43 @@
+Part5. Typscript
+Ch05. Interface
+01. 인터페이스란
+
+$ mkdir ~
+$ npm init -y
+$ npm i typescript -D
+$ npx tsc --init
+
+$ npx tsc
+
+컴파일이 완료가 되면 js파일에는 interface를 찾아볼수없다.
+컴파일 타임에만 필요하고, 컴파일타임에 interface를 이용하여 문제가 없는지 , 에러가 발생하는지 안하는지 확인을 할 수있다.
+
+
+02. 옵셔널 프로퍼티(1)
+interface Person2 {
+  name: string;
+  age?: number;
+}
+age 뒤에 물음표를 붙여서 있을수도 있고 없을수도 있음을 표기
+
+
+03. 옵셔널 프로퍼티(2) - indexable
+[index: string]: any
+key를 string값으로 지정하고, any. 어떤 프로퍼티를 넣어도 상관없음
+
+04. function in interface
+
+npx tsc 해서 js파일 생성해주고 
+node interface4.js 실행하여 결괏값 확인
+
+
+05. class implements interface
+
+interface IPerson1 { ~ } 인터페이스를 생성하고
+class Person implements IPerson1 { 
+}
+Person 에 파란불이 표시되는데 클릭해보면 IPerson1의 내용이 생성된다.
+name 은 constructor 를 사용하여 setter 추가해주기
+
+
+
