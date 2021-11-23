@@ -28,7 +28,7 @@ key를 string값으로 지정하고, any. 어떤 프로퍼티를 넣어도 상�
 04. function in interface
 
 npx tsc 해서 js파일 생성해주고 
-node interface4.js 실행하여 결괏값 확인
+$ node interface4.js 실행하여 결괏값 확인
 
 
 05. class implements interface
@@ -39,5 +39,16 @@ class Person implements IPerson1 {
 Person 에 파란불이 표시되는데 클릭해보면 IPerson1의 내용이 생성된다.
 name 은 constructor 를 사용하여 setter 추가해주기
 
+
+1123.
+
+06. interface extends interface
+인터페이스를 상속받는 인터페이스
+
+07. function interface
+
+08.Readonly interface properties
+
+09. type alias vs interface
 
 
