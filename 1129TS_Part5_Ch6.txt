@@ -42,3 +42,31 @@ private age 로 변경 했을때는 외부에서 p1.age 사용이 불가능해�
 
 protected는 외부에서 접근이 불가능하지만 상속관계에 있으면 접근이 가능해진다.
 클래스의 상속에 대해 배운뒤 다시 설명
+
+
+@ 초기화 in 컨스트럭터 파라미터
+생성자 파라미터안에서 public 입력해서 바로 초기화할수있다.
+
+@ getter & setter
+
+클래스 내부에서 
+get name() {
+  return this._name
+} 
+set name(n) { 
+  this._name = n
+}
+
+@Readonly Properties
+readonly 세팅은 -> 초기화 선언부분 or 컨트스럭터 내부 에서만 가능!!
+
+@index signatures in class
+class Students {
+  // [index: string]: string;
+  [index: string]: "male" | "female";
+
+  //모든 반에 mark라는 학생이  있다고 가정할때
+  mark: "male" = "male";
+}
+
+@static properties & methods
